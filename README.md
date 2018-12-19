@@ -8,7 +8,7 @@
 
 "//"符号标记的是简单说明下一行规则生效的对象。
 
-订阅地址: https://raw.githubusercontent.com/l1z2o0/mi_adblock/master/mi_rules
+订阅地址: https://raw.githubusercontent.com/l1z2o0/mi_adblock/master/mi_rules.txt
 
 # 更新日志
 2018-12-19 初始创建
