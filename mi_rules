@@ -1,0 +1,75 @@
+/----------MiMark_AD屏蔽规则----------/
+! Last Updated:20181219
+
+! 百度 baidu
+
+! 百度首页
+//页內App下载横幅
+baidu.com##.first-card-container
+//首页资讯
+baidu.com##.blank-frame
+//资讯分类导航
+baidu.com###menu-container
+//搜索历史搜索建议
+baidu.com###index-box
+//百度logo
+! baidu.com###logo
+//用户反馈 备案信息
+! baidu.com###bottom
+//顶部广场 登陆 资讯
+! baidu.com###userinfo-wrap
+//顶部登陆 资讯
+！ baidu.com###login-wraps
+//顶部广场
+baidu.com##.square-enterance
+//顶部资讯(今日新鲜事)
+baidu.com##.index-banner
+//顶部资讯（适用于via）
+！ baidu.com###logined-banner
+//顶部天气
+! baidu.com###weather
+
+! 百度文库
+wk.baidu.com##.b-zhiding-root
+wk.baidu.com##.b-tuijian-root
+wk.baidu.com##.doc-see-in-app
+wk.baidu.com##.fc-btm-root
+wk.baidu.com##.bottom-bar-global
+wk.baidu.com##.btns-warp
+wk.baidu.com##.gain-doc-block-root
+
+! 百度百科
+//他说
+baike.baidu.com###tashuo_list
+wapbaike.baidu.com###tashuo_list
+baidu.com###tashuo_list
+//猜你关注
+baike.baidu.com##.BK-content-load
+wapbaike.baidu.com##.BK-content-load
+baidu.com##.BK-content-load
+//他说 悬浮按钮
+baike.baidu.com###J-tashuo-button-fixed
+wapbaike.baidu.com###J-tashuo-button-fixed
+baidu.com###J-tashuo-button-fixed
+
+! mbd.baidu.com
+//打开看更多美图
+mbd.baidu.com##.openText
+//打开看全文
+mbd.baidu.com##.openall3
+//相关阅读
+mbd.baidu.com##.related-news
+//精彩视频
+mbd.baidu.com##.outmargin:nth-of-type(3)
+//热门推荐
+mbd.baidu.com##.outmargin:nth-of-type(4)
+//搞笑趣图
+mbd.baidu.com##.outmargin:nth-of-type(5)
+//打开听
+mbd.baidu.com##._1k19YN3-qdVhoYpBLDMjYV
+
+! m.8684.cn
+//顶部和页中广告
+||pos.baidu.com/s
+//推荐阅读
+||cpu.baidu.com/block
