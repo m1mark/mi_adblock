@@ -1,7 +1,8 @@
-/----------MiMark_AD屏蔽规则----------/
-! Last Updated:20181219
+/----------MiMark-AD屏蔽规则----------/
 
-! 百度 baidu
+! Last Updated:20181221
+
+!百度 baidu
 
 ! 百度首页
 //页內App下载横幅
@@ -52,24 +53,34 @@ baike.baidu.com###J-tashuo-button-fixed
 wapbaike.baidu.com###J-tashuo-button-fixed
 baidu.com###J-tashuo-button-fixed
 
-! mbd.baidu.com
+! 百家号
 //打开看更多美图
 mbd.baidu.com##.openText
+baijiahao.baidu.com##.openText
 //打开看全文
 mbd.baidu.com##.openall3
+baijiahao.baidu.com##.openall3
 //相关阅读
 mbd.baidu.com##.related-news
+baijiahao.baidu.com##.related-news
 //精彩视频
 mbd.baidu.com##.outmargin:nth-of-type(3)
+baijiahao.baidu.com##.outmargin:nth-of-type(3)
 //热门推荐
 mbd.baidu.com##.outmargin:nth-of-type(4)
+baijiahao.baidu.com##.outmargin:nth-of-type(4)
 //搞笑趣图
 mbd.baidu.com##.outmargin:nth-of-type(5)
+baijiahao.baidu.com##.outmargin:nth-of-type(5)
+mbd.baidu.com##.outmargin:nth-of-type(6)
+baijiahao.baidu.com##.outmargin:nth-of-type(6)
 //打开听
 mbd.baidu.com##._1k19YN3-qdVhoYpBLDMjYV
+baijiahao.baidu.com##._1k19YN3-qdVhoYpBLDMjYV
 
 ! m.8684.cn
 //顶部和页中广告
 ||pos.baidu.com/s
 //推荐阅读
 ||cpu.baidu.com/block
+
