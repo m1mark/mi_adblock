@@ -1,6 +1,6 @@
 /----------MiMark-AD屏蔽规则----------/
 
-! Last Updated:20181221
+! Last Updated:20181224
 
 !百度 baidu
 
