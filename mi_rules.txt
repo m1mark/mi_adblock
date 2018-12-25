@@ -102,8 +102,8 @@ baijiahao.baidu.com##._1k19YN3-qdVhoYpBLDMjYV
 !
 ! --------------------------------hosts filters-------------------------------- !
 !
-||m.ckck.vip/inc/wule
-||www.ckck.tv/skin/ckdvd/Images
+||m.ckck.vip/inc/wule/*.gif
+||www.ckck.tv/skin/ckdvd/Images/*.gif
 !
 ||10.0768dns.net
 ||2.xspic.com
