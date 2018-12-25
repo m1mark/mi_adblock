@@ -1,4 +1,12 @@
-/----------MiMark-AD屏蔽规则----------/
+! Title: MiMark-AD屏蔽规则
+! Version: 20181226
+! Expires: 5 days (update frequency)
+! Homepage: http://abpchina.org/forum/
+! License: https://easylist-downloads.adblockplus.org/COPYING
+
+!-----------------------General advert blocking filters-----------------------!
+
+/--------------------/
 
 ! Last Updated:20181224
 
