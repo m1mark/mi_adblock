@@ -1,125 +1,187 @@
-! Title: MiMark-AD屏蔽规则
+! Title: MiMark ABP
 ! Version: 20181226
-! Expires: 5 days (update frequency)
-! Homepage: http://abpchina.org/forum/
-! License: https://easylist-downloads.adblockplus.org/COPYING
-
+! Expires: 5 days
+! Homepage: https://github.com/m1mark/mi_adblock
+!
 !-----------------------General advert blocking filters-----------------------!
-
-/--------------------/
-
-! Last Updated:20181224
-
-!百度 baidu
-
+!
+/-------------------------------element filters-------------------------------/
+! 百度 baidu
+!
 ! 百度首页
-//页內App下载横幅
+! 页內App下载横幅
 baidu.com##.first-card-container
-//首页资讯
+! 首页资讯
 baidu.com##.blank-frame
-//资讯分类导航
+! 资讯分类导航
 baidu.com###menu-container
-//搜索历史搜索建议
+! 搜索历史搜索建议
 baidu.com###index-box
-//百度logo
+! 百度logo
 ! baidu.com###logo
-//用户反馈 备案信息
+! 用户反馈 备案信息
 ! baidu.com###bottom
-//顶部广场 登陆 资讯
+! 顶部广场 登陆 资讯
 ! baidu.com###userinfo-wrap
-//顶部登陆 资讯
-！ baidu.com###login-wraps
-//顶部广场
+! 顶部登陆 资讯
+! baidu.com###login-wraps
+! 顶部广场
 baidu.com##.square-enterance
-//顶部资讯(今日新鲜事)
+! 顶部资讯(今日新鲜事)
 baidu.com##.index-banner
-//顶部资讯（适用于via）
-！ baidu.com###logined-banner
-//顶部天气
+! 顶部资讯（适用于via）
+! baidu.com###logined-banner
+! 顶部天气
 ! baidu.com###weather
-
+!
 ! 百度文库
+! 顶部广告
 wk.baidu.com##.b-zhiding-root
+! 百度搜索推荐
 wk.baidu.com##.b-tuijian-root
+! 打开app查看
 wk.baidu.com##.doc-see-in-app
+! 文档底部广告
 wk.baidu.com##.fc-btm-root
+! 页尾横幅 下载文档
 wk.baidu.com##.bottom-bar-global
-wk.baidu.com##.btns-warp
+! 文档底部横幅
 wk.baidu.com##.gain-doc-block-root
-
+! 页面底部广告
+wk.baidu.com##.b-bigpic-root
+! 相关文档
+wk.baidu.com##.rec-text-root
+! 打开app查看更多同类文档
+wk.baidu.com##.guidetowkappwg-root
+wk.baidu.com##.btns-warp
+!
 ! 百度百科
-//他说
+! 他说
 baike.baidu.com###tashuo_list
 wapbaike.baidu.com###tashuo_list
 baidu.com###tashuo_list
-//猜你关注
+! 猜你关注
 baike.baidu.com##.BK-content-load
 wapbaike.baidu.com##.BK-content-load
 baidu.com##.BK-content-load
-//他说 悬浮按钮
+! 他说 悬浮按钮
 baike.baidu.com###J-tashuo-button-fixed
 wapbaike.baidu.com###J-tashuo-button-fixed
 baidu.com###J-tashuo-button-fixed
-
+!
 ! 百家号
-//打开看更多美图
+! 打开看更多美图
 mbd.baidu.com##.openText
 baijiahao.baidu.com##.openText
-//打开看全文
+! 打开看全文
 mbd.baidu.com##.openall3
 baijiahao.baidu.com##.openall3
-//相关阅读
+! 相关阅读
 mbd.baidu.com##.related-news
 baijiahao.baidu.com##.related-news
-//精彩视频
+! 精彩视频
 mbd.baidu.com##.outmargin:nth-of-type(3)
 baijiahao.baidu.com##.outmargin:nth-of-type(3)
-//热门推荐
+! 热门推荐
 mbd.baidu.com##.outmargin:nth-of-type(4)
 baijiahao.baidu.com##.outmargin:nth-of-type(4)
-//搞笑趣图
+! 搞笑趣图
 mbd.baidu.com##.outmargin:nth-of-type(5)
 baijiahao.baidu.com##.outmargin:nth-of-type(5)
 mbd.baidu.com##.outmargin:nth-of-type(6)
 baijiahao.baidu.com##.outmargin:nth-of-type(6)
-//打开听
+! 打开听
 mbd.baidu.com##._1k19YN3-qdVhoYpBLDMjYV
 baijiahao.baidu.com##._1k19YN3-qdVhoYpBLDMjYV
-
+!
 ! m.8684.cn
-//顶部和页中广告
+! 顶部和页中广告
 ||pos.baidu.com/s
-//推荐阅读
+! 推荐阅读
 ||cpu.baidu.com/block
-
-/----------hosts屏蔽规则----------/
-
+!
+||m.ckck.vip/inc/wule/*.gif
+||www.ckck.tv/skin/ckdvd/Images/*.gif
+!
+/--------------------------------hosts filters--------------------------------/
+!
+||10.0768dns.net
+||2.xspic.com
+||362b3d8954d9.oss-cn-hangzhou.aliyuncs.com
+||a2.tenglongluntai.com
 ||abc.zhiyaspa.com
 ||ajax.cloudflare.com
+||bb.dugesheying.com
+||bdtv.tianlangkm.com
 ||c.cnzz.com
+||c.starstar19999.com
+||cgm.shicimingju.com
 ||cnzz.mmstat.com
+||creative.jdkic.com
+||e.aduiz.com
 ||e.tdoup.com
 ||e.vjuei.com
+||f8tm.s2mrtave.com
+||img.597o.cn
 ||img.86yp.cn
+||img.awnxiz.cn
 ||img.shsbzl.com
 ||img.uunak.cn
 ||img.xixiku.cn
 ||img.yqgytx.com
+||ios.mgbbc.cn
+||jbxqgc.stokesokok.com
+||jocelynjoc.com
+||joljpic.jnqlnkyy.com
+||klk.jdflower.cn
+||llm.temiaogou.com
+||lo.ielgabriel.com
 ||m.enrogwm.cn
+||m.henxg.cn
+||m.lsiwd.cn
 ||m.tdoup.com
 ||m.vjuei.com
+||m.whsjg.cn
+||m.wywna.cn
 ||m.xcfwnhj.cn
+||mmp.iyygzs.com
+||mob15.tsxgsl.com
+||ohwx.7cjsh.cn
 ||p.ttzn5.cn
+||p4.yunpifu.cn
+||photo.0234408.cn
 ||photo.boweineng.cn
+||pic.029kongtiao.cn
+||pic.kuaikuai999.com
 ||pic.qxlzs.cn
+||picture886.oss-cn-beijing.aliyuncs.com
+||pp.ve001nz.com
 ||pvc.fuhuikang360.com
+||r.nux3h.cn
+||s1.jzydhxc.com
+||s1.szlu-an.com
 ||s13.cnzz.com
 ||s19.cnzz.com
 ||s22.cnzz.com
+||s23.cnzz.com
 ||sf.rs8278.cn
+||sl.51txtc.com
 ||ss.lixiqin.com
+||ss.norrisrrrr.com
+||ss.shicimingju.com
+||ssh.hbhtbn.com
+||static2.zgjf123.com
+||token.mengheyu.com
+||ws3.sinaimg.cn
 ||www.applequan.com
+||www.dqsft.com
 ||www.rangzhuai.com
+||xdfqlq.stokesokok.com
+||xk.xdaizi.com
+||yd8.jianzhousc.com
+||yujyjms.cn
 ||z1.cnzz.com
+||z1.gradia.cn
+||z5.cnzz.com
 ||z7.cnzz.com
 ||z8.cnzz.com
