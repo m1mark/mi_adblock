@@ -100,10 +100,10 @@ baijiahao.baidu.com##._1k19YN3-qdVhoYpBLDMjYV
 ! 推荐阅读
 ||cpu.baidu.com/block
 !
-||m.ckck.vip/inc/wule/*.gif
-||www.ckck.tv/skin/ckdvd/Images/*.gif
-!
 ! --------------------------------hosts filters-------------------------------- !
+!
+||m.ckck.vip/inc/wule
+||www.ckck.tv/skin/ckdvd/Images
 !
 ||10.0768dns.net
 ||2.xspic.com
