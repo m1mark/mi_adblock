@@ -102,9 +102,6 @@ baijiahao.baidu.com##._1k19YN3-qdVhoYpBLDMjYV
 !
 ! --------------------------------hosts filters-------------------------------- !
 !
-||m.ckck.vip/inc
-||www.ckck.tv/skin
-!
 ||10.0768dns.net
 ||2.xspic.com
 ||362b3d8954d9.oss-cn-hangzhou.aliyuncs.com
