@@ -8,7 +8,7 @@
 
 "!"符号标记的规则不生效，如果需要请自行删除"!"和后面的空格。
 
-"//"符号标记的是简单说明下一行规则生效的对象。
+"!"符号标记的中文行是用来简单说明下一行规则生效的对象。
 
 订阅地址: https://raw.githubusercontent.com/m1mark/mi_adblock/master/mi_rules.txt
 
