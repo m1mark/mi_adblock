@@ -3,9 +3,9 @@
 ! Expires: 5 days
 ! Homepage: https://github.com/m1mark/mi_adblock
 !
-!-----------------------General advert blocking filters-----------------------!
+! -----------------------General advert blocking filters----------------------- !
 !
-/-------------------------------element filters-------------------------------/
+! -------------------------------element filters------------------------------- !
 ! 百度 baidu
 !
 ! 百度首页
@@ -103,7 +103,7 @@ baijiahao.baidu.com##._1k19YN3-qdVhoYpBLDMjYV
 ||m.ckck.vip/inc/wule/*.gif
 ||www.ckck.tv/skin/ckdvd/Images/*.gif
 !
-/--------------------------------hosts filters--------------------------------/
+! --------------------------------hosts filters-------------------------------- !
 !
 ||10.0768dns.net
 ||2.xspic.com
