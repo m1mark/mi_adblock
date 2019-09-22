@@ -1,14 +1,16 @@
 ! Title: MiMark ABP
-! Version: 20181226
+! Version: 20190922
 ! Expires: 5 days
 ! Homepage: https://github.com/m1mark/mi_adblock
 !
 ! -----------------------General advert blocking filters----------------------- !
 !
 ! -------------------------------element filters------------------------------- !
-! 百度 baidu
+! ----------百度 baidu----------
 !
-! 百度首页
+! ----------百度首页----------
+！ 首页滚动横幅
+baidu.com##div:nth-of-type(6)
 ! 页內App下载横幅
 baidu.com##.first-card-container
 ! 首页资讯
@@ -34,7 +36,11 @@ baidu.com##.index-banner
 ! 顶部天气
 ! baidu.com###weather
 !
-! 百度文库
+！ ----------百度搜索结果----------
+！ 搜索页底部打开App
+baidu.com###page-copyright > div:nth-of-type(4)
+! 
+! ----------百度文库----------
 ! 顶部广告
 wk.baidu.com##.b-zhiding-root
 ! 百度搜索推荐
@@ -55,7 +61,7 @@ wk.baidu.com##.rec-text-root
 wk.baidu.com##.guidetowkappwg-root
 wk.baidu.com##.btns-warp
 !
-! 百度百科
+! ----------百度百科----------
 ! 他说
 baike.baidu.com###tashuo_list
 wapbaike.baidu.com###tashuo_list
@@ -69,7 +75,18 @@ baike.baidu.com###J-tashuo-button-fixed
 wapbaike.baidu.com###J-tashuo-button-fixed
 baidu.com###J-tashuo-button-fixed
 !
-! 百家号
+! ----------百度知道----------
+！ 返回百度
+zhidao.baidu.com###vbcpy5d7c3d
+zhidao.baidu.com###vbcpy5d7c3e
+zhidao.baidu.com###vbcpy5d7c3f
+zhidao.baidu.com###vbcpy5d7c40
+！ 答题领奖
+zhidao.baidu.com##.left-show.new-answer-entry
+！ 信息流
+zhidao.baidu.com##.feed-recommend-list
+!
+! ----------百家号----------
 ! 打开看更多美图
 mbd.baidu.com##.openText
 baijiahao.baidu.com##.openText
@@ -100,6 +117,13 @@ baijiahao.baidu.com##._1k19YN3-qdVhoYpBLDMjYV
 ! 推荐阅读
 ||cpu.baidu.com/block
 !
+
+! https://m.xianqihaotianmi.com
+m.xianqihaotianmi.com###bdapp777
+m.xianqihaotianmi.com###ltzsf
+||b.67v4d.cn$image
+!
 ! --------------------------------hosts filters-------------------------------- !
 !
 ||10.0768dns.net
+
