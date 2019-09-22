@@ -14,7 +14,5 @@
 订阅地址: https://raw.githubusercontent.com/m1mark/mi_adblock/master/mi_rules.txt
 
 # 更新日志
-2018-12-19 初始创建。
-
-2019-09-22 添加了几行规则。  
-           做个标记，证明活着。
+- 2018-12-19 初始创建。  
+2019-09-22 添加了几行规则。  做个标记，证明活着。
