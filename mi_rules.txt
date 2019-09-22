@@ -9,7 +9,7 @@
 ! ----------百度 baidu----------
 !
 ! ----------百度首页----------
-！ 首页滚动横幅
+! 首页滚动横幅
 baidu.com##div:nth-of-type(6)
 ! 页內App下载横幅
 baidu.com##.first-card-container
@@ -36,8 +36,8 @@ baidu.com##.index-banner
 ! 顶部天气
 ! baidu.com###weather
 !
-！ ----------百度搜索结果----------
-！ 搜索页底部打开App
+! ----------百度搜索结果----------
+! 搜索页底部打开App
 baidu.com###page-copyright > div:nth-of-type(4)
 ! 
 ! ----------百度文库----------
@@ -76,14 +76,14 @@ wapbaike.baidu.com###J-tashuo-button-fixed
 baidu.com###J-tashuo-button-fixed
 !
 ! ----------百度知道----------
-！ 返回百度
+! 返回百度
 zhidao.baidu.com###vbcpy5d7c3d
 zhidao.baidu.com###vbcpy5d7c3e
 zhidao.baidu.com###vbcpy5d7c3f
 zhidao.baidu.com###vbcpy5d7c40
-！ 答题领奖
+! 答题领奖
 zhidao.baidu.com##.left-show.new-answer-entry
-！ 信息流
+! 信息流
 zhidao.baidu.com##.feed-recommend-list
 !
 ! ----------百家号----------
