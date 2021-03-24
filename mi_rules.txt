@@ -1,129 +1,42 @@
 ! Title: MiMark ABP
-! Version: 20190922
+! Version: 20210324
 ! Expires: 5 days
 ! Homepage: https://github.com/m1mark/mi_adblock
 !
 ! -----------------------General advert blocking filters----------------------- !
 !
 ! -------------------------------element filters------------------------------- !
-! ----------百度 baidu----------
-!
-! ----------百度首页----------
-! 首页滚动横幅
-baidu.com##div:nth-of-type(6)
-! 页內App下载横幅
-baidu.com##.first-card-container
-! 首页资讯
-baidu.com##.blank-frame
-! 资讯分类导航
-baidu.com###menu-container
-! 搜索历史搜索建议
-baidu.com###index-box
-! 百度logo
-! baidu.com###logo
-! 用户反馈 备案信息
-! baidu.com###bottom
-! 顶部广场 登陆 资讯
-! baidu.com###userinfo-wrap
-! 顶部登陆 资讯
-! baidu.com###login-wraps
-! 顶部广场
-baidu.com##.square-enterance
-! 顶部资讯(今日新鲜事)
-baidu.com##.index-banner
-! 顶部资讯（适用于via）
-! baidu.com###logined-banner
-! 顶部天气
-! baidu.com###weather
-!
-! ----------百度搜索结果----------
-! 搜索页底部打开App
-baidu.com###page-copyright > div:nth-of-type(4)
-! 
-! ----------百度文库----------
-! 顶部广告
-wk.baidu.com##.b-zhiding-root
-! 百度搜索推荐
-wk.baidu.com##.b-tuijian-root
-! 打开app查看
-wk.baidu.com##.doc-see-in-app
-! 文档底部广告
-wk.baidu.com##.fc-btm-root
-! 页尾横幅 下载文档
-wk.baidu.com##.bottom-bar-global
-! 文档底部横幅
-wk.baidu.com##.gain-doc-block-root
-! 页面底部广告
-wk.baidu.com##.b-bigpic-root
-! 相关文档
-wk.baidu.com##.rec-text-root
-! 打开app查看更多同类文档
-wk.baidu.com##.guidetowkappwg-root
-wk.baidu.com##.btns-warp
-!
-! ----------百度百科----------
-! 他说
-baike.baidu.com###tashuo_list
-wapbaike.baidu.com###tashuo_list
-baidu.com###tashuo_list
-! 猜你关注
-baike.baidu.com##.BK-content-load
-wapbaike.baidu.com##.BK-content-load
-baidu.com##.BK-content-load
-! 他说 悬浮按钮
-baike.baidu.com###J-tashuo-button-fixed
-wapbaike.baidu.com###J-tashuo-button-fixed
-baidu.com###J-tashuo-button-fixed
-!
-! ----------百度知道----------
-! 返回百度
-zhidao.baidu.com###vbcpy5d7c3d
-zhidao.baidu.com###vbcpy5d7c3e
-zhidao.baidu.com###vbcpy5d7c3f
-zhidao.baidu.com###vbcpy5d7c40
-! 答题领奖
-zhidao.baidu.com##.left-show.new-answer-entry
-! 信息流
-zhidao.baidu.com##.feed-recommend-list
-!
-! ----------百家号----------
-! 打开看更多美图
-mbd.baidu.com##.openText
-baijiahao.baidu.com##.openText
-! 打开看全文
-mbd.baidu.com##.openall3
-baijiahao.baidu.com##.openall3
-! 相关阅读
-mbd.baidu.com##.related-news
-baijiahao.baidu.com##.related-news
-! 精彩视频
-mbd.baidu.com##.outmargin:nth-of-type(3)
-baijiahao.baidu.com##.outmargin:nth-of-type(3)
-! 热门推荐
-mbd.baidu.com##.outmargin:nth-of-type(4)
-baijiahao.baidu.com##.outmargin:nth-of-type(4)
-! 搞笑趣图
-mbd.baidu.com##.outmargin:nth-of-type(5)
-baijiahao.baidu.com##.outmargin:nth-of-type(5)
-mbd.baidu.com##.outmargin:nth-of-type(6)
-baijiahao.baidu.com##.outmargin:nth-of-type(6)
-! 打开听
-mbd.baidu.com##._1k19YN3-qdVhoYpBLDMjYV
-baijiahao.baidu.com##._1k19YN3-qdVhoYpBLDMjYV
-!
-! m.8684.cn
-! 顶部和页中广告
-||pos.baidu.com/s
-! 推荐阅读
-||cpu.baidu.com/block
-!
 
-! https://m.xianqihaotianmi.com
-m.xianqihaotianmi.com###bdapp777
-m.xianqihaotianmi.com###ltzsf
-||b.67v4d.cn$image
-!
-! --------------------------------hosts filters-------------------------------- !
-!
-||10.0768dns.net
+m.baidu.com##.news-list-wrapper
+m.baidu.com##.reason-upload
+m.baidu.com###tab_news_1
+m.baidu.com##.blank-frame
+m.baidu.com##.square-banner-bgicon.index-banner
+www.baidu.com##.news-list-wrapper
+www.baidu.com##.reason-upload
+www.baidu.com###tab_news_1
+www.baidu.com##.blank-frame
+www.baidu.com##.square-banner-bgicon.index-banner
+
+baike.baidu.com##.main-image
+baike.baidu.com##.close-image
+baike.baidu.com##.qtqy-container
+
+www.baidu.com##.animation.c-bg-color-white.new-ux-recom-wrapper.c-recomm-wrap
+www.baidu.com##.card-d20__3bRBw.cardContainer2__25srt.cardContainer__3-Ruv.c-gap-inner-bottom._3O3kz.c-container
+www.baidu.com##.se-page-relative
+
+m.sogou.com##.index-div
+m.sogou.com##.index-tab-wrap
+m.sogou.com##.recommend-pop.vr-recommend
+wap.sogou.com##.index-div
+wap.sogou.com##.index-tab-wrap
+wap.sogou.com##.recommend-pop.vr-recommend
+sogou.com##.index-div
+sogou.com##.index-tab-wrap
+sogou.com##.recommend-pop.vr-recommend
+
+m.so.com##.i-bd
+
+
 
