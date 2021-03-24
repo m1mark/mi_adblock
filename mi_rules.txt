@@ -1,6 +1,5 @@
 ! Title: MiMark ABP
 ! Version: 20210324
-! Expires: 5 days
 ! Homepage: https://github.com/m1mark/mi_adblock
 !
 ! -----------------------General advert blocking filters----------------------- !
