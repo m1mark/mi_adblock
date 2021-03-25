@@ -11,13 +11,13 @@ m.baidu.com##.reason-upload
 m.baidu.com###tab_news_1
 m.baidu.com##.blank-frame
 m.baidu.com##.square-banner-bgicon.index-banner
-m.baidu.com##div:nth-of-type(6)
+m.baidu.com##div:nth-of-type(2)
 www.baidu.com##.news-list-wrapper
 www.baidu.com##.reason-upload
 www.baidu.com###tab_news_1
 www.baidu.com##.blank-frame
 www.baidu.com##.square-banner-bgicon.index-banner
-www.baidu.com##div:nth-of-type(6)
+www.baidu.com##div:nth-of-type(2)
 
 baike.baidu.com##.main-image
 baike.baidu.com##.close-image
