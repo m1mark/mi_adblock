@@ -24,8 +24,8 @@ baike.baidu.com##.qtqy-container
 www.baidu.com##.animation.c-bg-color-white.new-ux-recom-wrapper.c-recomm-wrap
 www.baidu.com##.card-d20__3bRBw.cardContainer2__25srt.cardContainer__3-Ruv.c-gap-inner-bottom._3O3kz.c-container
 www.baidu.com##.se-page-relative
-www.baidu.com##div.result.c-result:nth-of-type(2)
-www.baidu.com##div.result.c-result:nth-of-type(1)
+! www.baidu.com##div.result.c-result:nth-of-type(2)
+! www.baidu.com##div.result.c-result:nth-of-type(1)
 
 zhidao.baidu.com##.feed-recommend-list
 zhidao.baidu.com##.mm-content-box.wgt-related-questions-new
