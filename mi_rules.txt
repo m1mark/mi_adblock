@@ -42,3 +42,6 @@ sogou.com##.recommend-pop.vr-recommend
 
 m.so.com##.i-bd
 
+||e.ddcy.xyz/MTM*.dx$image
+
+
