@@ -1,5 +1,5 @@
 ! Title: MiMark ABP
-! Version: 20230714
+! Version: 20230809
 ! Homepage: https://github.com/m1mark/mi_adblock
 !
 ! -----------------------General advert blocking filters----------------------- !
@@ -11,43 +11,68 @@ m.163.com##.js-open-app.backflow-floating
 m.163.com##.js-recommend.recommend
 m.163.com##.js-recommend-vip
 m.163.com##.js-open-app.main-openApp
+
 ! QQ
 view.inews.qq.com##.normal_buttonWrap__S7gLr
 view.inews.qq.com##.new-recommend_wrapper__oj9SS
+m.v.qq.com##.at-app-banner
+sj.qq.com##.container.BrandBanner_container__CHKrT.jsx-3103515446
+sj.qq.com##.BrandBanner_mask__DYJiL.jsx-3103515446
+
 ! thepaper
 m.thepaper.cn##.index_footer_banner__Mcr_R
 m.thepaper.cn##.index_wraper__xtG7v
 m.thepaper.cn##.index_wraper__h_AK6
+
 ! CSDN
 blog.csdn.net##.feed-Sign-weixin
 blog.csdn.net##.aside-header-fixed
 blog.csdn.net##.btn_open_app_prompt_div
+
 ! 阿里云
 www.aliyun.com##.fade_in.fade-out-fade-in-guide-bar-btn
+
 ! B站
 www.bilibili.com##.float-btn
+
 ! 掘金
 juejin.cn##.app-open-button.open-button
+
 ! 知乎
 zhuanlan.zhihu.com##.css-rgo48u
 www.zhihu.com##.is-higher.OpenInAppButton
+www.zhihu.com##.OpenInAppButton
+
 ! 起点
 m.qidian.com##.h-48px.w-38px.relative.float-btn
 m.qidian.com##.z-1.right-21px.bottom-48px.fixed
 m.qidian.com##._bottomTip_jhgwp_19
+
 ! 知道
 zhidao.baidu.com##.ec-ad.wgt-recommend-answer-container
 zhidao.baidu.com##.contextual-earches
 zhidao.baidu.com##.feed-recommend-title
 zhidao.baidu.com##.feed-recommend-list
+
 ! 百科
 baike.baidu.com##.qtqy-container
 baike.baidu.com##.tashuo-list
+
 ! 贴吧
 tieba.baidu.com##.nav-bar-bottom
+
 ! 必应
 www.bing.com###bnp_container
 cn.bing.com###bnp_container
+
+! 搜狐
+m.sohu.com##.art-rec-news
+m.sohu.com###recommendSearch
+
+! 新浪
+cj.sina.cn##.feed.module-extend.module-recommend
+cj.sina.cn###call_lec
+
 ! 站酷
 m.zcool.com.cn##.wapHeader_footer-button__zmbad
 
@@ -55,7 +80,23 @@ m.zcool.com.cn##.wapHeader_footer-button__zmbad
 fulizx10.cc##.ads
 fulizx10.cc##div:nth-of-type(3)
 fulizx10.cc##center
+lingjingxingzhe.com##.xs-show
+m.mayiwxw.com###cpk1ghwfodij9246
+m.mayiwxw.com###dthWIJKY
+m.mayiwxw.com###dtTqZCxv
+m.mayiwxw.com##.cpQRLDX
+n8n.io##.product-hunt
 tjs20.buzz###tjimg
 tjs20.buzz##.banner
 qdsy07.com###jgddiv_447
+
+||yiche.hnzzff.club
+||dnmaq.x9reu2.xyz
+||n47tmcni7sa7e.shumgwm.cn
+||tkfs1.com
+||xxsm12.com
+||sl.thesac7.top
+||puep.qpic.cn
+||sywsd.hgjjk45.com
+
 
