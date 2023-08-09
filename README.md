@@ -1,5 +1,6 @@
 # mi_adblock
 自用网页广告屏蔽规则，主要适用于移动端。
+使用 uBlock Origin 元素选择器来创建规则。
 
 项目地址: https://github.com/m1mark/mi_adblock
 
